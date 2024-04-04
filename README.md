@@ -1,2 +1,2 @@
 # proyecto-22
-pokeapi
+La manera de usar la poke api es realmente sencilla, solo necesitaras ganas y conocimiento en los nombres de los POKEMON, en la barra de busqueda puedes poner el nombre del pokemon y oprimir el boton de buscar e inmediatamente el sistema te facilitara una lista de informacion sobre los pokemones, ademas si quieres llevar mas allá tu conocimiento sin escribir, puedes probar la barra de voz, solamente seleccionas el boton sobre la opción de voz y afirmas el permiso, luego de esta acción, podrás decir el nombre del pokemón y buscar sus datos, ficha tecnica y su imagen, para que nunca dejes de aprender!
