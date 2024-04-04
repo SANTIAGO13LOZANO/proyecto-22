@@ -1,0 +1,56 @@
+ 
+.search-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Pokemon', sans-serif;
+
+}
+
+.text-center {
+    color: #fe0000;
+    text-shadow: 2px 2px rgb(255, 241, 131);
+}
+
+.btn {
+    background-color: rgb(250, 0, 0);
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.card-container {
+    display: flex;
+    border: 1px solid #f60000;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(237, 35, 35, 0.1);
+}
+
+#imagen_pokemon,
+#ficha_tecnica {
+    flex: 1;
+    padding: 15px;
+}
+.blue-box {
+background-color: #f50303; 
+padding: 10px;
+margin-bottom: 10px; 
+border-radius: 5px;
+}
+
+.blue-box p {
+margin: 0; 
+color: #fff; 
+}

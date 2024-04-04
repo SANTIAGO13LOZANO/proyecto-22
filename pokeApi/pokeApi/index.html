@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokémon Search Page</title>
+   
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/artyom.window.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+     
+
+     
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center pokemon-title">Pokémon</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="search-container">
+                    <form action="#" method="GET">
+                        <div class="input-group mb-3">
+                            <input type="text" id="txt-buscar" class="form-control" placeholder="Search..."
+                                aria-label="Search" aria-describedby="search-button">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary pokemon-button" type="submit" id="boton">Buscar</button>
+                            </div>
+                            <div class="input-group-append">
+                                <button class="btn btn-primary activar-voz" type="submit" id="activar-voz">Activar Voz</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card-container">
+                                <div id="imagen_pokemon">
+
+                                </div>
+                                <div id="ficha_tecnica">
+                                    <div class="blue-box">
+                                        <p>Nombre: </p>
+                                    </div>
+                                    <div class="blue-box">
+                                        <p>Número de Pokédex: </p>
+                                    </div>
+                                    <div class="blue-box">
+                                        <p>Habilidades: </p>
+                                    </div>
+                                    <div class="blue-box">
+                                        <p>Tipo: </p>
+                                    </div>
+                                    <div class="blue-box">
+                                        <p>Movimiento: </p>
+                                    </div>       
+                             </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
